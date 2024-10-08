@@ -1,0 +1,5 @@
+[28-Sep-2020 18:54:56 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/hoponhopoffbarce/public_html/application/views/pages/checkout.php on line 7
+[29-Sep-2020 17:38:09 UTC] PHP Fatal error:  Cannot redeclare Admin::remove_package() in /home/hoponhopoffbarce/public_html/application/controllers/Admin.php on line 118
+[30-Sep-2020 07:44:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home/hoponhopoffbarce/public_html/application/views/pages/checkout.php on line 296
+[01-Oct-2020 05:50:35 UTC] PHP Fatal error:  Cannot use [] for reading in /home/hoponhopoffbarce/public_html/application/controllers/Admin.php on line 258
+[30-Oct-2020 15:55:12 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/hoponhopoffbarce/public_html/application/controllers/Exporting.php on line 37

@@ -1,0 +1,5 @@
+[25-Sep-2020 20:26:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/hoponhopoffbarce/public_html/ccavenue/ccavResponseHandler.php:14) in /home/hoponhopoffbarce/public_html/ccavenue/ccavResponseHandler.php on line 35
+[25-Sep-2020 20:32:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/hoponhopoffbarce/public_html/ccavenue/ccavResponseHandler.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/hoponhopoffbarce/public_html/ccavenue/ccavResponseHandler.php on line 35

@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^hop\-on\-hop\-off\-barcelona\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.hop\-on\-hop\-off\-barcelona\.com$
+RewriteRule ^/?$ "https\:\/\/hop\-on\-hop\-off\-barcelona\.com\/" [R=301,L]
+
